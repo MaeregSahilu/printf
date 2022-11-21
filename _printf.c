@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 #include <stdarg.h>
 
 /**
@@ -10,19 +10,19 @@ int (*check_format(const char *format))(va_list)
 {
 	int i = 0;
 	print_t p[] = {
-		{"c", print_c},
-		{"s", print_s},
-		{"i", print_i},
-		{"d", print_d},
-		{"b", print_b},
-		{"u", print_u},
-		{"o", print_o},
-		{"x", print_x},
-		{"X", print_X},
-		{"p", print_p},
-		{"S", print_S},
-		{"r", print_r},
-		{"R", print_R},
+		{"c", specifier_c},
+		{"s", specifier_s},
+		{"i", specifier_i},
+		{"d", specifier_d},
+		{"b", specifier_b},
+		{"u", specifier_u},
+		{"o", specifier_o},
+		{"x", specifier_x},
+		{"X", specifier_X},
+		{"p", specifier_p},
+		{"S", specifier_S},
+		{"r", specifier_r},
+		{"R", specifier_R},
 		{NULL, NULL}
 	};
 
