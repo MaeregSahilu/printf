@@ -6,7 +6,7 @@
 * Return: this time returning i
 */
 
-int specifier_s(va_list s)
+int print_s(va_list s)
 {
 	char *str = va_arg(s, char *);
 	int y = 0;
