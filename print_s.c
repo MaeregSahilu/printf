@@ -6,6 +6,7 @@
  * @s: string to print
  * Return: i
  */
+
 int print_s(va_list s)
 {
 	char *str = va_arg(s, char *);
