@@ -6,6 +6,7 @@
  * @i: integer to print
  * Return: number of printed digits
  */
+
 int print_i(va_list i)
 {
 	int a[10];
